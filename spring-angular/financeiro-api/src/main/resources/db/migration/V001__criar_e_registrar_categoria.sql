@@ -1,0 +1,5 @@
+CREATE TABLE categoria (
+	id SERIAL,
+	nome VARCHAR(50) NOT NULL,
+	PRIMARY KEY(id)
+);

@@ -1,0 +1,15 @@
+com/estudo/jpa/model/Funcionario.class
+com/estudo/jpa/model/Categoria.class
+com/estudo/jpa/dto/AluguelCarroInfo.class
+com/estudo/jpa/model/ModeloCarro.class
+com/estudo/jpa/model/Convidado.class
+com/estudo/jpa/model/Fabricante.class
+com/estudo/jpa/model/Aluguel.class
+com/estudo/jpa/model/Pessoa.class
+com/estudo/jpa/model/EntidadeBaseInteger.class
+com/estudo/jpa/model/Evento.class
+com/estudo/jpa/model/ApoliceSeguro.class
+com/estudo/jpa/model/Acessorio.class
+com/estudo/jpa/model/Carro.class
+com/estudo/jpa/model/Motorista.class
+com/estudo/jpa/model/Sexo.class

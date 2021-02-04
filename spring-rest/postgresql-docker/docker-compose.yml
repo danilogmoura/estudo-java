@@ -1,0 +1,31 @@
+version: "3"
+
+volumes:
+  posgresql-spring_volume:
+  pgadmin-spring_volume:
+
+services:
+  postgres_service:
+    image: postgres:12.3-alpine
+    user: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - posgresql-spring_volume:/var/lib/postgresql/data
+      - ./postgresql/config/postgresql.conf:/etc/postgresql.conf
+    environment:
+      - POSTGRES_USER=${PG_USER}
+      - POSTGRES_PASSWORD=${PG_PASSWORD}
+      - POSTGRES_DB=${PG_DB}
+  pgadmin_service:
+    image: dpage/pgadmin4:latest
+    ports:
+      - 80:80
+    volumes:
+      - pgadmin-spring_volume:/pgadmin4
+      - ./pgadmin/config/servers.json:/pgadmin4/servers.json
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=${PGADMIN_EMAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_PASSWORD}
+    depends_on:
+      - postgres_service

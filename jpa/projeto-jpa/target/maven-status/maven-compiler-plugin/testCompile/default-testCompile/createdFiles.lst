@@ -1,0 +1,13 @@
+com/estudo/jpa/iniciando/CarroTeste.class
+com/estudo/jpa/EntityManagerTest.class
+com/estudo/jpa/consultasjpql/ConsultaDescricaoCategoriaDeModeloCarro.class
+com/estudo/jpa/iniciando/AluguelTeste.class
+com/estudo/jpa/heranca/PessoaTeste.class
+com/estudo/jpa/consultasjpql/ConsultaAcessoriosPorModeloCarro.class
+com/estudo/jpa/consultasjpql/ModeloCarro.class
+com/estudo/jpa/iniciando/FabricanteTeste.class
+com/estudo/jpa/consultasjpql/ConsultaFabricante.class
+com/estudo/jpa/iniciando/ModeloCarroTeste.class
+com/estudo/jpa/consultasjpql/ConsultasAgregadas.class
+com/estudo/jpa/iniciando/AcessoriosTeste.class
+com/estudo/jpa/consultasjpql/EventoConvidado.class

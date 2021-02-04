@@ -1,0 +1,39 @@
+telnet www.google.com.br 80
+
+GET / HTTP/1.1
+Host: www.google.com.br
+Accept: text/html
+
+
+telnet www.uol.com.br 80
+
+GET / HTTP/1.1
+Host: www.uol.com.br
+Accept: text/html
+
+
+gnutls-cli www.uol.com.br
+
+GET / HTTP/1.1
+Host:  www.uol.com.br
+Accept: text/html
+
+
+gnutls-cli www.uol.com.br
+GET / HTTP/1.1
+Host:  www.uol.com.br
+Accept: text/html
+
+
+gnutls-cli
+GET /users/:username/repos
+
+gnutls-cli api.github.com
+
+GET /users/danilogmoura/repos HTTP/1.1
+Host: api.github.com
+Accept: application/json
+User-Agent: DGM
+
+
+https://api.github.com/users/danilogmoura/repos
